@@ -1,0 +1,52 @@
+body{
+
+    font-family: sans-serif;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    margin: 50px;
+    font-size: 2rem;
+    
+}
+
+.color-display{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(215, 206, 206);
+    border-radius: 20px;
+    margin-bottom: 25px;
+    transition: 0.25 ease;
+
+}
+
+p{
+
+
+    color: rgb(0, 0%, 20%);
+    margin-bottom: 10px;
+
+
+}
+
+input[type="color"]{
+
+
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    
+
+
+}
